@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <script type="module" crossorigin src="/assets/index-0ac30b9d.js"></script>
+    <link rel="stylesheet" href="/assets/index-14a70c74.css">
+  </head>
+  <body>
+
+    
+    <nav class="flex justify-between mt-20 text-lg">
+      <div class="flex logo-azul ml-20">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAfCAYAAACRdF9FAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMSSURBVHgBzVhLUttAEO0ePiFkEbNN+IwXqQJnEThBzAlwTgCcALIDZ4G9iKEqi5ATxNyAnABzgpiNoSoLRALZxitI2Xg6PZJHloxkS8aO/aokzbRmRk/TPa81QoiBxZ1LCX3ExUHSitoWO92U25eJ6enJLQDKcHUZBoMy0zhWqnbUiXgo0aXs7y2BKkcECfgvQAugka8U5ouBd4OMqezNHs9iDoYCzFUKL/MPrO2GVPZ6gy9fYYhQilYvDuZKXpsIaLcHQ4YQ4sFE+Ygu7f7Ui0bC0EFycedX2mvxEUXEdNchFH1Tqp7k4iZEBBFaROodF1d4cR5F6cMxmYEORN9AtwGE+KNlhOPIgoggauTP9+ePK4XZ8vn+7AailqSukBBGlN9WwgDQaIiy/zlaijqDJ8Q3ae2LScIAMDkO66bsZDfKdO9FUiccUxs3hVfZ65DMg8fAcWlqCpSlr1NT9+Xa3wk3TgkhwS79HPhIhG3W5gxxFhJIafZcJDx99uQ5X6o+ouOkJM93QHN1VjmYK7Zby7mkHsC165lCnAgk2qQreYHIqCRt1O9X+HzlI8pRIINb41rqw81C63mNU53mUtoDiFstu061cVhgkYjOuLDGnkgHNhlrcXKJIpIMyajLHP2esBjTpyKv+oQQsAE9AYucJk3YHL7evT6hALJeFRJBxsGDTn019Nddu1IzpuwSHZQ0BQPf+qu4FtjKI1GurznmIgUYv1AJ7eyCCyAe84WFRVaTUxqDdR4vHdbq9rY+Yx0mqzZRLU0TAN9hBEEo5PnHF1e2621pGlU4EmViNEyaRgBNibKJOtI0mjBqJLyVUYSRKFvwe5SmavOIg0TziAwjUSYzSYgB50O4thpnX67R/B444ZQpo/dywtJZTBh9ZnolqaH7ENVX2YNWjG42NydGVaQv7keRNIhLlpq7AZtogyjftUMfSBrEIXtfg/dgiDp76HCy/SQJschS/sen2daMalQKczmlYJMDveRpWeVd55e7u9pKP0kGkNU7U3edsLtL+ieE5tR1kH7/uYsC7x6pHf8AQGFc7HC1QbQAAAAASUVORK5CYII=" alt="control" width="50" height="50" class="mr-2">
+        <p class="text-blue-500">Alura</p>
+        <p class="text-black">Geek</p>
+    
+        <form action="buscador" method="post" target="buscar" class="logo-busqueda pl-10">
+          <input type="search" name="" placeholder="Que deseas buscar?"
+          class="text-blue-600 bg-slate-100 w-60 h-10 py-2 pl-8 pr-6 border-2 rounded-full border-zinc-400">
+          <input type="submit" value="Buscar"
+          class="text-slate-600 bg-slate-100 w-20 h-10 px-2 border-2 rounded-full border-zinc-400 cursor-pointer">
+        </form>
+      </div>
+      <button class="button bg-transparent border-2 border-blue-500 text-blue-500 w-32 h-12 rounded-md font-bold text-lg text-center mr-32">Login</button>
+    </nav>
+     
+    <section class="bg-fondo-tienda bg-center bg-cover bg-no-repeat w-full h-auto mt-12 text-white">
+      <p class="text-7xl font-medium pl-44 pt-20 leading-loose ">Febrero Promocional</p>
+      <p class="text-3xl font-medium pl-44 leading-10">Productos selecionados con 33% de descuento</p>
+    
+      <button class="bg-blue-500 w-32 h-14 ml-44 text-white font-sans mt-10 mb-12 text-center">Ver Consolas</button>
+    </section>
+
+    <!-- seccion productos 1 -->
+    <div class="text-3xl font-bold leading-10 mt-24 ml-64">
+      <p>Star Wars</p>
+    </div>
+    <section class="lista-Productos flex justify-center flex-wrap gap-16 mt-6 mb-20   bg-contain w-full" datos-productos></section>
+
+
+    <!-- seccion productos 2 -->  
+    <div class="text-3xl font-bold leading-10 mt-24 ml-64">
+      <p>Consolas</p>
+    </div>  
+    <section class="lista-Consolas flex justify-center gap-16 mt-6 mb-20 bg-contain w-full" datos-consolas></section>
+    
+    
+
+        
+    <!-- seccion productos 3 -->
+    <div class="text-3xl font-bold leading-10 mt-24 ml-64">
+    <p>Diversos</p>
+    </div>
+    <section class="productos flex justify-center gap-16 mt-6 mb-20 bg-contain w-full" datos-diversos></section>
+  
+    
+    
+    
+    <section class="flex justify-evenly bg-blue-200 w-full h-auto gap-4 mt-24 mb-20">
+      
+      <div class="flex items-baseline pt-20">
+        
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAfCAYAAACRdF9FAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMSSURBVHgBzVhLUttAEO0ePiFkEbNN+IwXqQJnEThBzAlwTgCcALIDZ4G9iKEqi5ATxNyAnABzgpiNoSoLRALZxitI2Xg6PZJHloxkS8aO/aokzbRmRk/TPa81QoiBxZ1LCX3ExUHSitoWO92U25eJ6enJLQDKcHUZBoMy0zhWqnbUiXgo0aXs7y2BKkcECfgvQAugka8U5ouBd4OMqezNHs9iDoYCzFUKL/MPrO2GVPZ6gy9fYYhQilYvDuZKXpsIaLcHQ4YQ4sFE+Ygu7f7Ui0bC0EFycedX2mvxEUXEdNchFH1Tqp7k4iZEBBFaROodF1d4cR5F6cMxmYEORN9AtwGE+KNlhOPIgoggauTP9+ePK4XZ8vn+7AailqSukBBGlN9WwgDQaIiy/zlaijqDJ8Q3ae2LScIAMDkO66bsZDfKdO9FUiccUxs3hVfZ65DMg8fAcWlqCpSlr1NT9+Xa3wk3TgkhwS79HPhIhG3W5gxxFhJIafZcJDx99uQ5X6o+ouOkJM93QHN1VjmYK7Zby7mkHsC165lCnAgk2qQreYHIqCRt1O9X+HzlI8pRIINb41rqw81C63mNU53mUtoDiFstu061cVhgkYjOuLDGnkgHNhlrcXKJIpIMyajLHP2esBjTpyKv+oQQsAE9AYucJk3YHL7evT6hALJeFRJBxsGDTn019Nddu1IzpuwSHZQ0BQPf+qu4FtjKI1GurznmIgUYv1AJ7eyCCyAe84WFRVaTUxqDdR4vHdbq9rY+Yx0mqzZRLU0TAN9hBEEo5PnHF1e2621pGlU4EmViNEyaRgBNibKJOtI0mjBqJLyVUYSRKFvwe5SmavOIg0TziAwjUSYzSYgB50O4thpnX67R/B444ZQpo/dywtJZTBh9ZnolqaH7ENVX2YNWjG42NydGVaQv7keRNIhLlpq7AZtogyjftUMfSBrEIXtfg/dgiDp76HCy/SQJschS/sen2daMalQKczmlYJMDveRpWeVd55e7u9pKP0kGkNU7U3edsLtL+ieE5tR1kH7/uYsC7x6pHf8AQGFc7HC1QbQAAAAASUVORK5CYII=" alt="control" width="50" height="50" class="mr-2">
+        <div class="flex text-lg ">
+          <p class="text-blue-500">Alura</p>
+          <p class="text-black">Geek</p>
+        </div>
+        
+        
+       
+      </div>
+
+      <div class="font-medium leading-loose pt-20 pb-20">
+        <p>Quienes somos <br> Política de privacidad <br>
+        Programa de fidelidad <br>
+        Nuestras Tiendas <br>
+        Quiero ser franquiciado <br>
+        Anúncie aquí</p>
+      </div>
+
+      <div class="form pt-20">
+        <p>Hable con nosotros</p>
+
+        <div class="formulario pt-2">
+          <input type="text" name="nombre" id="nombre" class="input-nombre pl-2 w-80 h-10" placeholder="Nombre" >  
+        </div>
+        <div class="mensaje mt-4">
+          <input type="text" name="mensaje" id="mensaje" class="input-nombre pl-2 w-80 h-10" placeholder="Escribe tu mensaje">
+        </div>
+        <div class="boton mt-4 text-sm bg-blue-500 w-28 h-10 text-center text-white py-2">
+          <button>Enviar mensaje</button>
+        </div>
+      </div> 
+    </section>
+
+    <div class="text-sm font-semibold text-slate-400 text-center mt-4 mb-20">
+      <p>© Carmen Elvira Barajas Henao 2023</p>
+    </div>
+
+    
+  </body>
+</html>
