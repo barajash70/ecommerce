@@ -1,11 +1,134 @@
 {
     "producto": [
         {
-            "nombre": "Producto XYZ",
+            "nombre": "Caneca",
             "imageUrl": "./assets/canecasw.png",
             "price": "60.00",
             "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+            "id": 1
+        },
+        {
+            "nombre": "Legos",
+            "imageUrl": "./assets/legosw.png",
+            "price": "60.00",
+            "description": "",
+            "id": 2
+        },
+        {
+            "nombre": "Yoda",
+            "imageUrl": "./assets/yoda.png",
+            "price": "60.00",
+            "description": "",
+            "id": 3
+        },
+        {
+            "nombre": "Trupper",
+            "imageUrl": "./assets/trupper.png",
+            "price": "60.00",
+            "description": "",
             "id": 4
+        },
+        {
+            "nombre": "Baby Yoda",
+            "imageUrl": "./assets/babyyoda.png",
+            "price": "60.00",
+            "description": "",
+            "id": 5
+        },
+        {
+            "nombre": "Darth",
+            "imageUrl": "./assets/darth.png",
+            "price": "60.00",
+            "description": "",
+            "id": 6
+        }
+    ],
+    "consola": [
+        {
+            "nombre": "Consola-1",
+            "imageUrl": "./assets/consolas-1.png",
+            "price": "60.00",
+            "description": "",
+            "id": 7
+        },
+        {
+            "nombre": "Consola-2",
+            "imageUrl": "./assets/consolas-2.png",
+            "price": "60.00",
+            "description": "",
+            "id": 8
+        },
+        {
+            "nombre": "Consola-3",
+            "imageUrl": "./assets/consolas-3.png",
+            "price": "60.00",
+            "description": "",
+            "id": 9
+        },
+        {
+            "nombre": "Consola-4",
+            "imageUrl": "./assets/consolas-4.png",
+            "price": "60.00",
+            "description": "",
+            "id": 10
+        },
+        {
+            "nombre": "Consola-5",
+            "imageUrl": "./assets/consolas-5.png",
+            "price": "60.00",
+            "description": "",
+            "id": 11
+        },
+        {
+            "nombre": "Consola-6",
+            "imageUrl": "./assets/consolas-6.png",
+            "price": "60.00",
+            "description": "",
+            "id": 12
+        }
+    ],
+    "diversos": [
+        {
+            "nombre": "Atari",
+            "imageUrl": "./assets/atari.png",
+            "price": "60.00",
+            "description": "",
+            "id": 13
+        },
+        {
+            "nombre": "Camisas",
+            "imageUrl": "./assets/camisasnes.png",
+            "price": "60.00",
+            "description": "",
+            "id": 14
+        },
+        {
+            "nombre": "Sonic",
+            "imageUrl": "./assets/sonic.png",
+            "price": "60.00",
+            "description": "",
+            "id": 15
+        },
+        {
+            "nombre": "Reloj",
+            "imageUrl": "./assets/relogio.png",
+            "price": "60.00",
+            "description": "",
+            "id": 16
+        },
+        {
+            "nombre": "Vr",
+            "imageUrl": "./assets/vr.png",
+            "price": "60.00",
+            "description": "",
+            "id": 17
+        },
+        {
+            "nombre": "Pikachu",
+            "imageUrl": "./assets/pikachu.png",
+            "price": "60.00",
+            "description": "",
+            "id": 18
         }
     ]
 }
